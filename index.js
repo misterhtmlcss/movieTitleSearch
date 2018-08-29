@@ -74,7 +74,7 @@ function displaySearch() {
 
 function changeHero() {
   hero.style.height = '33vh'
-  heroBody.style.paddingTop = '10vh'
+  heroBody.style.paddingTop = '7vh'
   console.log('test Change Hero');
   //return
 }
