@@ -1,0 +1,8 @@
+/node_modules
+archive*
+/env
+/imgs
+/dist/*.css
+/dist/*.html
+/dist/*.js
+.surge*
