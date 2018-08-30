@@ -6,8 +6,7 @@ html {
 }
 
 h1, h2, p, a, label,
-input, #app div h1,
-.btn {
+input, #app div h1 {
   text-align: center;
   color: #F3F3F3;
 }
@@ -45,7 +44,6 @@ a:active{
   align-items: center;
   flex-direction: column;
   background-color: rgb(146, 173, 148);
-  border-radius: 0 0 15px 15px;
 }
 
 .container {
@@ -57,7 +55,6 @@ a:active{
 
 .top {
   width: 100%;
-  /* margin-top: -10px */
 }
 
 .hero {
@@ -88,8 +85,8 @@ input {
   padding-bottom: 3vh;
 }
 
-.top, #app div {
-  border-bottom: 3px solid #262626;
+#app div {
+  border-top: 3px solid #262626;
 }
 
 #app div:nth-child(odd){
@@ -113,9 +110,4 @@ nav > h2, nav > label {
 .title {
   font-size: 3rem;
   font-weight: 500;
-}
-
-.subtitle {
-  font-size: 1.5rem;
-  color:whitesmoke;
 }
