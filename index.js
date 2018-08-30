@@ -73,10 +73,9 @@ function displaySearch() {
 }
 
 function changeHero() {
-  hero.style.height = '33vh'
+  hero.style.height = '220px'
   heroBody.style.paddingTop = '7vh'
-  console.log('test Change Hero');
-  //return
+  return
 }
 
 // Clears all data from screen after a search.
