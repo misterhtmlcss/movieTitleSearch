@@ -14,7 +14,7 @@ function getData(searchItem) {
   fetch(url)
   .then(response => response.json())
   .then(resJson => resJson.Search.forEach(extractData))
-  .catch(err => console.log(err))
+  .catch(err => console.log('Invalid Search ',err))
 }
 
 function extractData({ Title, Year, Poster, Type, imdbID }) {
@@ -73,7 +73,7 @@ function displaySearch() {
 }
 
 function changeHero() {
-  hero.style.height = '220px'
+  hero.style.height = '230px'
   heroBody.style.paddingTop = '7vh'
   return
 }
